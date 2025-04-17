@@ -1,0 +1,26 @@
+# Archivos de desarrollo local
+.env
+.env.local
+.env.testing
+
+# Dependencias de desarrollo
+/node_modules/
+/vendor/
+
+# Logs y caché
+/storage/*.log
+/storage/framework/cache/*
+/storage/framework/views/*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones locales
+docker-compose.yml
+dockerfile
+Vagrantfile
+
+# Documentación
+/docs/
+/readme.md
